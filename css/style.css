@@ -348,6 +348,7 @@ margin-top: 8%;
     color:#278f82;
     margin-right: 17%;
     margin-top: 0px;
+    padding: 3px;
 }
 .nav-bar{
     display: block;
@@ -383,6 +384,9 @@ margin-top: 8%;
 .empty{
     display: block;
 }
+#Pro{
+    margin-top: 0%;
+}
 .button{
    display: flex;
    position: absolute;
@@ -391,18 +395,23 @@ margin-top: 8%;
    width: 89%;
    background-color: rgb(59, 57, 57) ;
 }
+#menu{
+    margin-top: 22%;
+}
 #Pro-link{
-    /* position: absolute; */
-    top:80px;
-    background-color:white;
-    border-radius:5px;
-    display:block;
-   
+    position: absolute;
+    top:100px;
+    background-color:rgb(59, 57, 57);
+    border-radius:0px;
+    display:block; 
+    width: 90%;
+    right: 5%;
 }
 #Pro-link li{
     display:block;
     padding:10px;
-    color:rgb(218, 214, 214)
+    color:rgb(218, 214, 214);
+    margin-left: 10%;
 }
 #btn-1{
     padding:10px;
